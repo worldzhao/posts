@@ -1,0 +1,38 @@
+@import "~typo.css/typo.css";
+
+mark,
+.highlighted {
+  background: #7dffb3;
+}
+
+.first-letter {
+  overflow-wrap: break-word;
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  line-height: 60px;
+  display: block;
+  position: relative;
+  float: left;
+  margin: 0px 7px 0 -5px;
+}
+
+.subtitle {
+  font-family: "Shadows Into Light", sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0 0 24px 0;
+}
+
+::selection {
+  background-color: lavender;
+}
+
+@keyframes scale-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
